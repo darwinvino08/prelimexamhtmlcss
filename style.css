@@ -5,19 +5,21 @@ body{
 span{
   visibility: hidden;
 }
+
 .container{
   background-color: #f3f3f3;
   display: inline-block;
   padding-left: 100px;
   padding-right: 100px;
 border-radius: 10px;
+padding-bottom: 50px;
 }
 
 input[type=text] {
   margin-left: 10px;
   margin-bottom: 15px;
 border-radius: 4px;
-padding-right: 100px;
+width: 250px;
 padding-bottom: 5px;
 position: relative;
 left: 100px;
@@ -26,18 +28,20 @@ left: 100px;
 input[type=email] {
 margin-left: 10px;
 margin-bottom:15px;
-padding-right: 100px;
+width: 250px;
 padding-bottom: 5px;
 position: relative;
 left: 100px;
 margin-bottom:15px;
+border-radius: 4px;
 
 }
 input[type=number] {
 margin-left: 10px;
 margin-bottom: 15px;
-padding-right: 100px;
-padding-bottom: 5px;
+width: 250px;
+height: 20px;
+
 }
 .name{
 position: relative;
@@ -54,25 +58,62 @@ left: 100px;
   position: relative;
   right: 10px;
   margin-bottom: 20px;
-  text-align: center;
+
 }
 .time{
   position: relative;
   right: 120px;
 }
-input[type=radio]{
-position: absolute;
 
-left:240px;
 
-}
-.rad-name{
-
-}
 
 .rad{
 position: relative;
 bottom: 20px;
-left:30px;
+left: 30px;
 line-height: 1.5;
+margin-right: 15px;
+}
+.rad-name{
+
+
+}
+.what{
+  position: relative;
+  right: 130px;
+bottom: 10px;
+}
+.describe{
+position: relative;
+left: 150px;
+bottom:50px;
+margin-right: 170px;
+}
+.cb{
+position: relative;
+bottom: 65px;
+left: 30px;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
